@@ -37,4 +37,13 @@ __screenshots__/
 # Vite
 *.timestamp-*-*.mjs
 .vercel
+# Environment variables
+.env
+.env.*
+!.env.example
 .env*.local
+firebase_service_account.json
+supabase/seed.sql
+
+# Gemini & Agent configs
+.gemini/settings.json
